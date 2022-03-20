@@ -15,7 +15,7 @@ to addEvent [BDay eventLabel eventColor]
   
   create-timeplots 1
   [
-    set shape "circle"
+    set shape "triangle"
     set birthday BDay
     set age 0
     set size age / factor / 10
