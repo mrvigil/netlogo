@@ -281,7 +281,7 @@ shape-of
 (models in the NetLogo Models Library and elsewhere which are of related interest)
 
 ## CREDITS AND REFERENCES
-
+http://www.netlogoweb.org/launch#https://raw.githubusercontent.com/mrvigil/netlogo/gh-pages/Circle%20geologic%20time%20metaphor.nlogo
 (a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
 @#$#@#$#@
 default
