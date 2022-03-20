@@ -1,2 +1,2 @@
 # netlogo
-https://mrvigil.github.io/netlogo/geology time metaphor.html
+https://mrvigil.github.io/netlogo/geology-time-metaphor.html
