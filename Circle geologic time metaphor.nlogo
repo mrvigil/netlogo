@@ -146,9 +146,9 @@ NIL
 
 MONITOR
 0
-50
+55
 165
-95
+100
 Billions of Years
 year / 1000000000
 7
@@ -186,6 +186,16 @@ OUTPUT
 190
 540
 10
+
+TEXTBOX
+0
+34
+180
+47
+To start model, click setup then click go.
+10
+0
+0
 @#$#@#$#@
 ## WHAT IS IT?
 
