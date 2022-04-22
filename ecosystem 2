@@ -16,6 +16,23 @@ to setup
   make-lake
   make-trees
 end
+to make-trees
+  create-trees  random 60 + 50
+  [
+    set shape "tree"
+    set color 32
+    set age random 200 + 50
+    set size age / 100
+    setxy random 36 random 36
+    if pcolor = blue [die]
+    ask patches in-radius size
+    [
+      set growth 0
+      set pcolor 34
+    ]
+    
+  ]
+end
 to make-lake
   create-lakes 1
   [
@@ -35,23 +52,6 @@ to make-lake
     [
       set pcolor blue
     ]    
-  ]
-end
-to make-trees
-  create-trees  random 60 + 50
-  [
-    set shape "tree"
-    set color 32
-    set age random 200 + 50
-    set size age / 100
-    setxy random 36 random 36
-    if pcolor = blue [die]
-    ask patches in-radius size
-    [
-      set growth 0
-      set pcolor 34
-    ]
-    
   ]
 end
 to go
